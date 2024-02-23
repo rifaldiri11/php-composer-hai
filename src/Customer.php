@@ -6,7 +6,7 @@ namespace LibraryComposer{
             
         }
 
-        public function SayCustomer(string $name = "Guest"): string{
+        public function SayCustomer(string $name = "John"): string{
             return "hai customer $name i am $this->name";
         }
     }
